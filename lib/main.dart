@@ -2,7 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:rentify/firebase_options.dart';
-import 'package:rentify/onboard_page.dart';
+import 'package:rentify/presentation_pages/pages/car_list_screen.dart';
+import 'package:rentify/presentation_pages/pages/onboard_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home: OnboardPage(),
+      home: CarListScreen(),
     );
   }
 }

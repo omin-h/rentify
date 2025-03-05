@@ -24,12 +24,12 @@ class OnboardPage extends StatelessWidget {
             child: Column(children: [
               Text(
                 "Drive Exotic Cars. \nEnjoy the luxury", 
-                style: TextStyle(color: Colors.black54, fontSize: 32, fontWeight: FontWeight.bold),
+                style: TextStyle(color: Colors.black87, fontSize: 32, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(height: 25,),
                 Text(
-                  "Premium and exotic cars for rent\nat affordable prices", 
-                  style: TextStyle(color: Colors.grey, fontSize: 16),
+                  "Premium and exotic cars for rent at\naffordable prices", 
+                  style: TextStyle(color: Colors.black54, fontSize: 16),
                   ),
                   SizedBox(height: 20,),
                   SizedBox(
